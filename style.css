@@ -2,14 +2,14 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #fdfdfd;
+  color: #222;
 }
 
 header {
-  background-color: #0066cc;
+  background-color: #4CAF50;
   color: white;
-  padding: 20px;
+  padding: 20px 10px;
   text-align: center;
 }
 
@@ -22,21 +22,21 @@ main {
 }
 
 .resource-category h2 {
-  color: #0066cc;
+  color: #333;
 }
 
 ul {
   list-style-type: none;
-  padding: 0;
+  padding-left: 0;
 }
 
 li {
-  margin-bottom: 10px;
+  margin: 8px 0;
 }
 
 a {
+  color: #0077cc;
   text-decoration: none;
-  color: #0073e6;
 }
 
 a:hover {
@@ -44,7 +44,44 @@ a:hover {
 }
 
 footer {
-  background-color: #eee;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
+  background-color: #eee;
+  color: #555;
+  margin-top: 30px;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.dark-mode header {
+  background-color: #1f1f1f;
+}
+
+.dark-mode a {
+  color: #66ccff;
+}
+
+.dark-mode footer {
+  background-color: #1f1f1f;
+  color: #ccc;
+}
+
+/* Dark mode button styling */
+#darkModeBtn {
+  margin: 10px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#darkModeBtn:hover {
+  background-color: #555;
 }
