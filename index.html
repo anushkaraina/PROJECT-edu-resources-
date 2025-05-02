@@ -7,8 +7,6 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <button id="darkModeBtn">Toggle Dark Mode</button>
-
   <header>
     <h1>EduResources</h1>
     <p>Your curated hub of useful learning websites</p>
@@ -38,6 +36,17 @@
         <li><a href="https://sqlzoo.net" target="_blank">SQLZoo</a></li>
         <li><a href="https://www.w3schools.com/sql/" target="_blank">W3Schools SQL</a></li>
       </ul>
+    </section>
+
+    <!-- Suggestion Form Section -->
+    <section class="suggest-form">
+      <h2>Suggest a New Learning Resource</h2>
+      <form id="suggestForm">
+        <input type="text" id="siteName" placeholder="Website Name" required />
+        <input type="url" id="siteURL" placeholder="Website URL" required />
+        <button type="submit">Submit</button>
+      </form>
+      <p id="responseMsg"></p>
     </section>
   </main>
 
