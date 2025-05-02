@@ -1,4 +1,4 @@
-body {
+body { 
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -51,6 +51,45 @@ footer {
   margin-top: 30px;
 }
 
+/* Form styles */
+.suggest-form {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.suggest-form h2 {
+  margin-top: 0;
+}
+
+.suggest-form input {
+  padding: 10px;
+  margin: 10px 5px 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.suggest-form button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.suggest-form button:hover {
+  background-color: #45a049;
+}
+
+#responseMsg {
+  margin-top: 10px;
+  font-size: 14px;
+  color: green;
+}
+
 /* Dark mode styles */
 .dark-mode {
   background-color: #121212;
@@ -68,6 +107,17 @@ footer {
 .dark-mode footer {
   background-color: #1f1f1f;
   color: #ccc;
+}
+
+.dark-mode .suggest-form {
+  background-color: #2a2a2a;
+}
+
+.dark-mode .suggest-form input,
+.dark-mode .suggest-form button {
+  background-color: #3a3a3a;
+  color: white;
+  border: 1px solid #555;
 }
 
 /* Dark mode button styling */
